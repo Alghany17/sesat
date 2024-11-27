@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .file-download a {
+            display: block;
+            margin: 5px 0;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website Pribadi</h1>
+    </header>
+    <div class="container">
+        <!-- Data Diri -->
+        <section>
+            <h2>Data Diri</h2>
+            <p><strong>Nama:</strong> Alghany Sihombing</p>
+            <p><strong>NPM:</strong> 50421118</p>
+            <p><strong>Prodi:</strong> Pendidikan Biologi</p>
+        </section>
+
+        <!-- Makalah -->
+        <section>
+            <h2>Makalah</h2>
+            <p>Makalah tentang "Pendidikan Biologi dan Lingkungan Hidup".</p>
+        </section>
+
+        <!-- File Download -->
+        <section class="file-download">
+            <h2>File Download</h2>
+            <a href="assets/makalah.pdf" download>Unduh Makalah (PDF)</a>
+            <a href="assets/makalah.docx" download>Unduh Makalah (Word)</a>
+            <a href="assets/makalah.pptx" download>Unduh Makalah (PPT)</a>
+        </section>
+
+        <!-- Video -->
+        <section>
+            <h2>Video</h2>
+            <video width="320" height="240" controls>
+                <source src="assets/video.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </section>
+    </div>
+</body>
+</html>
